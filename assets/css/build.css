@@ -4,6 +4,21 @@
   font-size: 16px;
 }
 
+/* unvisited link */
+a {
+  /* visited link */
+  /* mouse over link */
+}
+a:link {
+  color: #449406;
+}
+a:visited {
+  color: #1e6900;
+}
+a:hover {
+  color: #7edf00;
+}
+
 body table:nth-child(4) tbody tr td table {
   padding: 1em;
 }
