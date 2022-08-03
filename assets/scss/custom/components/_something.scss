@@ -1,7 +1,13 @@
-.something {
-    display: flex;
-}
-.wow {
-    font-size: 16px;
+body {
+    table:nth-child(4) {
+        tbody tr td {
+            table {
+                padding: 1em;
+            }
+        }
+    }
+    table:nth-child(5) {
+        background: red;
+    }
 }
 
