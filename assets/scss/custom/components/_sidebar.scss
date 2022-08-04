@@ -1,0 +1,19 @@
+.sidebar__parent {
+    padding: 0;
+}
+.sidebar {
+    padding: 1em 2em;
+    :not(&__main) {
+        a {
+            font-size: 20px;
+            display: inline-flex;
+            margin-bottom: 0.4em;
+            
+            svg {
+                width: 0.8em;
+                margin-right: 1em;
+                fill: #454;
+            }
+        }
+    }
+}

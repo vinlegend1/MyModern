@@ -19,6 +19,26 @@ a:hover {
   color: #7edf00;
 }
 
+.sidebar__parent {
+  padding: 0;
+}
+
+.sidebar {
+  padding: 1em 2em;
+}
+:not(.sidebar__main) a {
+  font-size: 20px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-bottom: 0.4em;
+}
+:not(.sidebar__main) a svg {
+  width: 0.8em;
+  margin-right: 1em;
+  fill: #454;
+}
+
 body table:nth-child(4) tbody tr td table {
   padding: 1em;
 }

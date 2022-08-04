@@ -1,14 +1,15 @@
 {
-  "manifest_version": 3,
- 
-  "name": "DLSU New UI",
-  "version": "0.1.0",
-  "description": "DLSU New UI",
- 
-  "content_scripts": [{
-    "css": ["assets/css/build.css"],
-    "js": ["content.js"],
-    "matches": ["https://enroll.dlsu.edu.ph/*"]
-  }]
- 
+    "manifest_version": 3,
+
+    "name": "DLSU New UI",
+    "version": "0.1.0",
+    "description": "DLSU New UI",
+
+    "content_scripts": [
+        {
+            "css": ["assets/css/build.css"],
+            "js": ["assets/js/sidebar.js"],
+            "matches": ["https://enroll.dlsu.edu.ph/*"]
+        }
+    ]
 }
