@@ -3,11 +3,20 @@
 }
 .sidebar {
     padding: 1em 2em;
+    &__main {
+        b {
+            margin-bottom: 0.4em;
+        }
+    }
     :not(&__main) {
         a {
             font-size: 20px;
             display: inline-flex;
             margin-bottom: 0.4em;
+            
+            &:first-child {
+                margin-top: 0.4em;
+            }
             
             svg {
                 width: 0.8em;
