@@ -27,20 +27,17 @@ a:hover {
   padding: 1em 2em;
 }
 .sidebar__main b {
-  margin-bottom: 0.4em;
+  font-size: 14px !important;
 }
 :not(.sidebar__main) a {
-  font-size: 20px;
+  font-size: 16px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-bottom: 0.4em;
-}
-:not(.sidebar__main) a:first-child {
-  margin-top: 0.4em;
+  margin: 0.6em 0;
 }
 :not(.sidebar__main) a svg {
-  width: 0.8em;
+  width: 1em;
   margin-right: 1em;
   fill: #454;
 }

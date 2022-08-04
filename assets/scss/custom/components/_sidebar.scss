@@ -5,21 +5,17 @@
     padding: 1em 2em;
     &__main {
         b {
-            margin-bottom: 0.4em;
+            font-size: 14px !important;
         }
     }
     :not(&__main) {
         a {
-            font-size: 20px;
+            font-size: 16px;
             display: inline-flex;
-            margin-bottom: 0.4em;
-            
-            &:first-child {
-                margin-top: 0.4em;
-            }
+            margin: 0.6em 0;
             
             svg {
-                width: 0.8em;
+                width: 1em;
                 margin-right: 1em;
                 fill: #454;
             }
